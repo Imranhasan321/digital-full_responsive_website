@@ -290,7 +290,12 @@ ul{
 --------------------media quary----------------*/
 /* for sm device(640px) */
 @media (min-width:640px) {
-    
+    .container{
+        max-width: 640px;
+    }
+    .sm-text-xl{
+        font-size: 3rem;
+    }
 }
 /* for md device(768px) */
 @media (min-width:768px) {
@@ -335,3 +340,29 @@ ul{
 
 
 /*--------------------/media quary---------------- */
+
+
+
+
+
+
+/* -----------------banner-area-style------------------- */
+
+#site-main .banner-area{
+    width: 100%;
+    position: relative;
+    background: var(--bg-cover)no-repeat;
+    background-position-x: right;
+    z-index: -99;
+}
+
+#site-main .banner-area .banner-tittle{
+    height: 95vh;
+    padding-top: 16rem;
+    
+
+}
+
+
+/* -----------------/banner-area-style------------------- */
+
